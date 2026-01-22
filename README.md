@@ -7,35 +7,35 @@ This is a feature-rich Car Showroom Management System developed as a semester pr
 
 ✨ **Key Feature**
 👥 Role-Based Access Control
-_**Admin:**___ Full system control - add/update/remove cars, approve worker applications, view reports
-_**Worker:**___ Sell cars, track attendance, view personal sales statistics
-**_Customer:_** Browse inventory, purchase cars, sell-back vehicles, view purchase history
-_**Guest:**_ Browse and search cars without authentication
+----> **Admin:**___ Full system control - add/update/remove cars, approve worker applications, view reports
+----> **Worker:**___ Sell cars, track attendance, view personal sales statistics
+----> **_Customer:_** Browse inventory, purchase cars, sell-back vehicles, view purchase history
+----> **Guest:**_ Browse and search cars without authentication
 
 🚗 **Core Functionalities**
-_Car Management:_ Complete CRUD operations with auto-generated IDs
-_Sales System:_ Track sales with detailed records (customer, worker, price, timestamp)
-_Worker Applications:_ Job application system with admin approval workflow
-_Search & Filter:_ Advanced car search by name, brand, category, and price range
-_Sorting:_ Multiple sorting options (price, name, quantity)
-_Leaderboard:_ Worker performance tracking based on sales count
-_File Persistence: _Automatic data save/load using Java Serialization
-_Invoice Generation:_ Sales records appended to text files for easy tracking
+----> Car Management:_ Complete CRUD operations with auto-generated IDs
+----> Sales System:_ Track sales with detailed records (customer, worker, price, timestamp)
+----> Worker Applications:_ Job application system with admin approval workflow
+----> Search & Filter:_ Advanced car search by name, brand, category, and price range
+----> Sorting:_ Multiple sorting options (price, name, quantity)
+----> Leaderboard:_ Worker performance tracking based on sales count
+----> File Persistence: _Automatic data save/load using Java Serialization
+----> Invoice Generation:_ Sales records appended to text files for easy tracking
 
 🛠️ Technical Implementation
 📚 OOP Principles Demonstrated
-_Inheritance:_ Person → Admin/Worker/Customer
-_Encapsulation:_ Private fields with public getters/setters
-_Abstraction:_ Abstract Person class with menu() method
-_Polymorphism:_ Method overriding in subclasses
-_Generics:_ Custom Box<T> container class
+----> Inheritance:_ Person → Admin/Worker/Customer
+----> Encapsulation:_ Private fields with public getters/setters
+----> Abstraction:_ Abstract Person class with menu() method
+----> Polymorphism:_ Method overriding in subclasses
+----> Generics:_ Custom Box<T> container class
 
 🔧 Design Patterns & Concepts
-_Factory Pattern:_ Static factory methods for object creation
-_Singleton Pattern:_ Single Showroom instance management
-_Composition: _Showroom contains collections of related objects
-_Data Persistence:_ Object serialization for state management
-_Exception Handling:_ Robust input validation and error handling
+----> Factory Pattern:_ Static factory methods for object creation
+----> Singleton Pattern:_ Single Showroom instance management
+----> Composition: _Showroom contains collections of related objects
+----> Data Persistence:_ Object serialization for state management
+----> Exception Handling:_ Robust input validation and error handling
 
 📁 Project Structure
 text
@@ -58,12 +58,12 @@ CarShowroomSystem/
 └── README.md                  # Project documentation
 
 🎓 Educational Value
-_This project serves as an excellent learning resource for:
-Java beginners transitioning to intermediate level
-Understanding real-world OOP implementation
-File handling and serialization in Java
-Console-based application design
-Role-based system architecture
+This project serves as an excellent learning resource for:
+----> Java beginners transitioning to intermediate level
+----> Understanding real-world OOP implementation
+----> File handling and serialization in Java
+----> Console-based application design
+----> Role-based system architecture
 _
 🚦 How to Run
 bash
@@ -77,38 +77,25 @@ javac *.java
 java Main
 📊 Sample Data Included
 The system comes pre-loaded with sample data:
-
-3 Cars (Honda Civic, Toyota Corolla, Tesla Model 3)
-
-2 Workers (Ali, Basit)
-
-1 Customer (Saad)
-
-Default Admin credentials (admin/admin123)
+----> 3 Cars (Honda Civic, Toyota Corolla, Tesla Model 3)
+----> 2 Workers (Ali, Basit)
+----> 1 Customer (Saad)
+----> Default Admin credentials (admin/admin123)
 
 🔍 Code Quality Highlights
-Clean, documented code with JavaDoc-style comments
-
-Consistent naming conventions
-
-Modular design for easy extension
-
-Comprehensive error handling
-
-Memory-efficient collections usage
+----> Clean, documented code with JavaDoc-style comments
+----> Consistent naming conventions
+----> Modular design for easy extension
+----> Comprehensive error handling
+----> Memory-efficient collections usage
 
 🔄 Future Enhancements
 Potential improvements include:
-
-Database integration (MySQL/PostgreSQL)
-
-Graphical User Interface (JavaFX/Swing)
-
-Email/SMS notifications
-
-Advanced reporting with charts
-
-Multi-branch showroom support
+----> Database integration (MySQL/PostgreSQL)
+----> Graphical User Interface (JavaFX/Swing)
+----> Email/SMS notifications
+----> Advanced reporting with charts
+----> Multi-branch showroom support
 
 REST API for web/mobile access
 
